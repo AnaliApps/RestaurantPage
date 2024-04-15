@@ -1,3 +1,4 @@
+import './style.css';
 export default function displayUI(img){
     const div = document.querySelector('#content');
     const h1 = document.createElement('h1');
