@@ -15,11 +15,11 @@ displayUI(Icon);
 
  menubtn.addEventListener("click",()=>{
     content.innerHTML = '';
-    content.appendChild(displayMenuUI("Menu"));
+    content.appendChild(displayMenuUI());
  })
 
  aboutbtn.addEventListener("click",()=>{
     content.innerHTML = '';
-    content.appendChild(displayAboutUI("About"));
+    content.appendChild(displayAboutUI());
  })
 
