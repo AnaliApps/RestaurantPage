@@ -6,11 +6,12 @@ import Icon from './icon.png';
 document.body.appendChild(displayUI(Icon))
  let homebtn = document.querySelector("#home");
  let menubtn = document.querySelector("#menu");
- let aboutbtn = document.querySelector("#about")
+ let aboutbtn = document.querySelector("#about");
+ let content = document.querySelector("#content");
  console.log(homebtn)
  homebtn.addEventListener("click",(e)=>{
-    document.body.innerHTML = '';
-    document.body.appendChild(displayHomeUI("Home"));
+    content.innerHTML = '';
+    content.appendChild(displayHomeUI("Home"));
  })
 
  menubtn.addEventListener("click",()=>{
